@@ -3,5 +3,5 @@
   "name": "ppm-example.dependency",
   "version": "1.0.0",
   "description": "Some other ppm contracts depends on this one",
-  "protogen": "1.4.0"
+  "protogen": "1.5.0"
 }
