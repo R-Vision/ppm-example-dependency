@@ -27,8 +27,10 @@ Protocol enumeration
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | PROTOCOL_UNSPECIFIED | 0 | Not specified |
-| PROTOCOL_HTTP | 1 | HTTP |
-| PROTOCOL_TCP | 2 | TCP |
+| PROTOCOL_HTTP1 | 1 | HTTP 1.1 |
+| PROTOCOL_HTTP2 | 2 | HTTP 2.0 |
+| PROTOCOL_TCP | 3 | TCP |
+| PROTOCOL_UDP | 4 | UDP |
 
 
  

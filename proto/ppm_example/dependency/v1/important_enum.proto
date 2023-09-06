@@ -3,14 +3,22 @@ syntax = "proto3";
 
 package ppm_example.dependency.v1;
 
+option go_package = "ppm_example.dependency.v1";
+
 // Protocol enumeration
 enum Protocol {
   // Not specified
   PROTOCOL_UNSPECIFIED = 0;
 
-  // HTTP
-  PROTOCOL_HTTP = 1;
+  // HTTP 1.1 
+  PROTOCOL_HTTP1 = 1;
+
+  // HTTP 2.0
+  PROTOCOL_HTTP2 = 2;
 
   // TCP
-  PROTOCOL_TCP = 2;
+  PROTOCOL_TCP = 3;
+
+  // UDP
+  PROTOCOL_UDP = 4;
 }
