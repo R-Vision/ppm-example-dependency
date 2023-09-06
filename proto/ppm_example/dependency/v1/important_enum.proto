@@ -3,6 +3,8 @@ syntax = "proto3";
 
 package ppm_example.dependency.v1;
 
+option go_package = "ppm_example.dependency.v1";
+
 // Protocol enumeration
 enum Protocol {
   // Not specified
